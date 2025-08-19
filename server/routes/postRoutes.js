@@ -1,5 +1,5 @@
 import express from "express";
-import Post from "../models/Post.js";
+import Post from "../mongodb/models/post.js";
 import * as dotenv from "dotenv";
 import { v2 as cloudinary } from "cloudinary";
 

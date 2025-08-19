@@ -14,7 +14,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/v1/post", postRoutes);
+app.use("/api/v1/imagen", postRoutes);
 app.use("/api/v1/imagen", imagenRoutes);
 
 app.get("/", (req, res) => {
